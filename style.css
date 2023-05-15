@@ -1,0 +1,218 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    nav {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        background-color: white;
+    }
+    
+    .logo {
+        display: flex;
+        width: 20%;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul {
+        display: flex;
+        width: 30%;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 550px;
+    }
+    
+    ul li {
+        padding-right: 20px;
+    }
+    
+    ul li a {
+        color: rgb(177, 177, 177);
+    }
+    
+    .buttons {
+        display: flex;
+        width: 10%;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .buttons button {
+        height: 40px;
+        width: 110px;
+        background-color: #0061F2;
+        border-style: none;
+        border-radius: 7px;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .box1 {
+        width: 100%;
+        height: 620px;
+    }
+    
+    img {
+        margin-top: 120px;
+    }
+    
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text {
+        margin-top: 30px;
+    }
+    
+    .text h1 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    
+    .text p {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .boxes {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .boox {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2F6FC;
+    }
+    
+    .b1 {
+        width: calc(90%/3);
+        height: 200px;
+        background-color: #F2F6FC;
+    }
+    
+    .b2 {
+        width: calc(90%/3);
+        height: 200px;
+        background-color: #F2F6FC;
+    }
+    
+    .b3 {
+        width: calc(90%/3);
+        height: 200px;
+        background-color: #F2F6FC;
+    }
+    
+    .boxes i {
+        font-size: 30px;
+        clip-path: circle();
+        padding: 15px;
+        margin-left: 200px;
+        margin-top: 40px;
+        position: absolute;
+        color: white;
+    }
+    
+    .b1 i {
+        background-color: #E81500;
+    }
+    
+    .b2 i {
+        background-color: #F4A100;
+    }
+    
+    .b3 i {
+        background-color: #0061F2;
+    }
+    
+    .boxes h3 {
+        text-align: center;
+        margin-top: 120px;
+        font-weight: 500;
+    }
+    
+    .boxes p {
+        text-align: center;
+    }
+    
+    .i1 {
+        width: calc(78%/3);
+        height: 300px;
+        margin-left: 90px;
+        background-image: url(photo1.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    .i2 {
+        width: calc(78%/3);
+        height: 500px;
+        margin-left: 40px;
+        background-image: url(photo2.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    .i3 {
+        width: calc(78%/3);
+        height: 300px;
+        margin-left: 40px;
+        background-image: url(photo3.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    .i4 {
+        width: calc(78%/3);
+        height: 500px;
+        margin-left: 90px;
+        position: absolute;
+        margin-top: 350px;
+        background-image: url(photo4.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    .i5 {
+        width: calc(78%/3);
+        height: 310px;
+        margin-left: 513px;
+        position: absolute;
+        margin-top: 540px;
+        background-image: url(photo5.jpg);
+        background-repeat: no-repeat;
+    }
+    
+    .i6 {
+        width: calc(78%/3);
+        height: 500px;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 940px;
+        background-image: url(photo6.jpg);
+    }
+    
+    .images {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    
+    .images div {
+        border-radius: 7px;
+    }
